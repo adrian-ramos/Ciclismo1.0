@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#e79a43" >
+
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="190dp"
+                  android:layout_gravity="center">
+        <ImageView
+                android:id="@+id/imagen"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="4dp"
+
+                  android:orientation="vertical" android:background="#e79a43">
+
+        <TextView android:id="@+id/txt_title"
+              android:textSize="@dimen/txt_field"
+              android:background="@android:color/transparent"
+              android:padding="@dimen/pad_field"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" android:text="@string/TeamMaster" android:gravity="center"
+                  android:textStyle="bold" android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView2">
+        <TextView android:id="@+id/lbl_subtitle"
+                  android:textSize="@dimen/lbl_subtitle"
+                  android:padding="@dimen/pad_field"
+                  android:layout_width="match_parent"
+                  android:layout_height="218dp" android:textColor="@android:color/black"
+                  android:text="@string/TeamDetail"/>
+    </ScrollView>
+</LinearLayout>
+

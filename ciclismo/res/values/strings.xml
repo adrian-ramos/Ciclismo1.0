@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_generic_catalog">Ciclismo Catalog</string>
+
+    <string name="app_name">Ciclismo</string>
+
+    <string name="header_name">Ciclismo</string>
+
+    <string name="CyclistButton">Cyclist</string>
+    <string name="TeamButton">Team</string>
+
+    <string name="CyclistMaster">Cyclist</string>
+    <string name="TeamMaster">Team</string>
+
+    <string name="CyclistDetail">Cyclist Detalle</string>
+    <string name="TeamDetail">Team Detalle</string>
+
+    <string name="Principal_Detail">Category Detail</string>
+    <string name="cat_master">Category Master</string>
+    <string name="t_db">Team Database</string>
+    <string name="c_db">Cyclist Database</string>
+
+</resources>
